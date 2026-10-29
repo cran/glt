@@ -1,0 +1,24 @@
+Package: glt
+Title: Bayesian Factor Modelling via Generalized Lower Triangular
+        Priors
+Version: 1.0
+Authors@R: 
+    person("Antonio", "Canale", , "antonio.canale@unipd.it", role = c("aut", "cre"))
+Description: Sparse Bayesian factor models for multivariate data, built
+    around a flexible Generalized Lower Triangular (GLT) process prior on
+    the loading matrix by Canale and Frühwirth-Schnatter (2026)
+    <doi:10.48550/arXiv.2610.09762>. The number of active factors, their
+    sparsity pattern, and the loadings themselves are learned jointly via 
+    a Markov chain Monte Carlo sampler implemented in C++ with 'Rcpp' and
+    'RcppArmadillo'.
+License: GPL-2
+Encoding: UTF-8
+LinkingTo: Rcpp, RcppArmadillo
+Imports: Rcpp, sparvaride
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: yes
+Packaged: 2026-10-19 11:18:16 UTC; antonio
+Author: Antonio Canale [aut, cre]
+Maintainer: Antonio Canale <antonio.canale@unipd.it>
+Repository: CRAN
+Date/Publication: 2026-10-29 11:10:01 UTC
